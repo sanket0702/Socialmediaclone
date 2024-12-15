@@ -1,0 +1,73 @@
+/* General styles for the login page */
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f2f5;
+  }
+  
+  .loginWrap {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 360px;
+    text-align: center;
+  }
+  
+  .login-header img {
+    width: 150px;
+    margin-bottom: 20px;
+  }
+  
+  .login-form h4 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .login-form-wrap input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .login-form-wrap button {
+    width: 100%;
+    padding: 10px;
+    background-color: #1877f2;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-form-wrap button:hover {
+    background-color: #165cbb;
+  }
+  
+  .register-wrap {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  .register-wrap a,
+  .register-wrap .link-button {
+    font-size: 14px;
+    color: #1877f2;
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    
+    cursor: pointer;
+  }
+  
+  .register-wrap .link-button:hover {
+    text-decoration: underline;
+  }
+  

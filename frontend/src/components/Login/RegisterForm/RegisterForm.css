@@ -1,0 +1,182 @@
+/* General Page Styling */
+.register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f2f5;
+    font-family: Arial, sans-serif;
+    
+  }
+  
+  /* Wrapper for the Register Component */
+  .registerWrap {
+    background-color: transparent;
+    padding: 20px 30px;  
+    border-radius: 10px;
+    text-align: center;
+
+  }
+
+  .register-header{
+    display: flex;
+    justify-content: center;
+    
+} /* Header Section */
+
+  .register-header img {
+    
+    width: 350px;
+    margin-bottom: 40px;
+  }
+  .register-form{
+
+    background-color: white;
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  /* Form Title */
+  .register-form h4 {
+    margin-top: 10px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #1877f2;
+    
+  }
+  .NameInput{
+    display: flex;
+    gap: 0.8rem;
+  }
+  
+  /* Form Inputs */
+  .register-form input[type="text"],
+  .register-form input[type="email"],
+  .register-form input[type="password"],
+  .register-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+    outline: none;
+  }
+  
+  /* Date of Birth Section */
+  .dob-section {
+    text-align: left;
+    
+  }
+  
+  .dob-section label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+  }
+  
+  .dob-select {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  .dob-select select {
+    flex: 1;
+  }
+  
+  /* Gender Section */
+  .gender-options input[type="radio"]:checked {
+    border-color: #1877f2; /* Outer circle color */
+  }
+  .gender-section {
+    text-align: left;
+    
+  }
+  
+  .gender-section label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    
+  }
+  
+  .gender-options {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    
+  }
+  
+  .gender-options label {
+    display: flex;
+    align-items: center;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+    height: 45px;
+    width: 150px;
+    border: 1px solid #ccc;
+    background-color: white;
+    border-radius: 5px;
+  }
+  
+  /* Sign-Up Button */
+  .register-form button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #1877f2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .register-form button[type="submit"]:hover {
+    background-color: #145dbf;
+  }
+  
+  /* Already Have an Account Section */
+  .already-account {
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  
+  .already-account .link-button {
+    background: none;
+    border: none;
+    color: #1877f2;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .already-account .link-button:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 500px) {
+    .registerWrap {
+      padding: 15px 20px;
+    }
+  
+    .dob-select {
+      flex-direction: column;
+      gap: 15px;
+    }
+  
+    .gender-options {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+  

@@ -1,0 +1,126 @@
+/* Overall styling for the login form container */
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f2f5; /* Light grey background */
+  }
+  
+  .loginWrap {
+    width: 350px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  /* Header section with the logo */
+  .login-header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  
+  .login-header img {
+    width: 120px; /* Facebook logo size */
+  }
+  
+  /* Login form section */
+  .login-form {
+    text-align: center;
+  }
+  
+  .login-form h4 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333; /* Dark text for the header */
+    margin-bottom: 20px;
+  }
+  
+  .login-form-wrap form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Spacing between inputs */
+  }
+  
+  .login-form-wrap label {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 5px;
+    color: #555; /* Slightly darker text */
+  }
+  
+  .login-form-wrap input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  .login-form-wrap input:focus {
+    outline: none;
+    border-color: #1877f2; /* Blue border when focused */
+  }
+  
+  .login-form-wrap button {
+    background-color: #1877f2; /* Facebook blue */
+    color: white;
+    font-size: 16px;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-form-wrap button:hover {
+    background-color: #145dbf; /* Darker blue on hover */
+  }
+  
+  /* Forgot Password link */
+  .login-forgot {
+    text-align: center;
+    margin: 15px 0;
+  }
+  
+  .login-forgot a {
+    color: #1877f2;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .login-forgot a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Divider styling */
+  .spilter {
+    margin: 20px 0;
+  }
+  
+  .spilter hr {
+    border: none;
+    border-top: 1px solid #ccc; /* Light grey divider */
+    width: 100%;
+  }
+  
+  /* Register link */
+  .login-register {
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  .login-register a {
+    color: #1877f2;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .login-register a:hover {
+    text-decoration: underline;
+  }
+  
